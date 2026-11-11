@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WSN Project - Dhruvrajsinh Vansia</title>
+<style>
+:root{--primary:#2563eb;--text:#1f2937;--text-light:#6b7280;--bg:#fff;--bg-alt:#f3f4f6}*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:var(--text);background:var(--bg)}.container{max-width:1200px;margin:0 auto;padding:0 20px}header{background:var(--bg);border-bottom:1px solid #e5e7eb;padding:20px 0;position:sticky;top:0;z-index:100}nav{display:flex;justify-content:space-between;align-items:center}.logo{font-size:1.5rem;font-weight:700;color:var(--primary)}.nav-links{display:flex;gap:30px;list-style:none}.nav-links a{text-decoration:none;color:var(--text-light);font-weight:500}.nav-links a:hover{color:var(--primary)}.hero{padding:100px 0;background:linear-gradient(135deg,var(--bg-alt) 0%,var(--bg) 100%)}.hero-content{max-width:800px}.hero h1{font-size:3rem;font-weight:800;margin-bottom:20px;line-height:1.2}.hero p{font-size:1.25rem;color:var(--text-light);margin-bottom:30px}.btn{display:inline-block;padding:12px 24px;background:var(--primary);color:#fff;text-decoration:none;border-radius:8px;font-weight:600}.btn:hover{background:#1d4ed8}.btn-secondary{background:transparent;border:2px solid var(--primary);color:var(--primary);margin-left:10px}.btn-secondary:hover{background:var(--primary);color:#fff}section{padding:80px 0}.section-title{font-size:2rem;font-weight:700;margin-bottom:40px;text-align:center}.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px}.feature-card{background:var(--bg);border:1px solid #e5e7eb;border-radius:12px;padding:30px}.feature-card:hover{transform:translateY(-5px);box-shadow:0 10px 30px rgba(0,0,0,.1)}.feature-icon{font-size:2.5rem;margin-bottom:20px}.feature-card h3{font-size:1.25rem;margin-bottom:10px}.feature-card p{color:var(--text-light)}.tech-stack{background:var(--bg-alt)}.spec-table{width:100%;border-collapse:collapse;background:var(--bg);border-radius:12px;overflow:hidden}.spec-table th,.spec-table td{padding:15px 20px;text-align:left;border-bottom:1px solid #e5e7eb}.spec-table th{background:var(--bg-alt);font-weight:600;width:40%}footer{background:var(--text);color:#fff;padding:40px 0;text-align:center}footer a{color:#fff;text-decoration:underline}@media(max-width:768px){.hero h1{font-size:2rem}}
+</style>
+</head>
+<body>
+<header><div class="container"><nav><div class="logo">WSN Project</div><ul class="nav-links"><li><a href="#about">About</a></li><li><a href="#features">Features</a></li><li><a href="#specs">Specifications</a></li></ul></nav></div></header>
+<section class="hero"><div class="container"><div class="hero-content"><h1>Wireless Sensor Node for Space Applications</h1><p>ATmega128-based multi-sensor environmental monitoring system developed at Physical Research Laboratory (PRL), ISRO</p><a href="https://github.com/dvvansia/prl-wsn-project" class="btn">View on GitHub</a><a href="#features" class="btn btn-secondary">Learn More</a></div></div></section>
+<section id="about"><div class="container"><h2 class="section-title">Project Overview</h2><div style="max-width:800px;margin:0 auto;text-align:center"><p style="font-size:1.1rem;color:var(--text-light)">Developed during internship at <strong>Physical Research Laboratory (PRL), ISRO</strong> (January-April 2025). Integrates BMP280, TSL2561, MQ135, AHT20 sensors with ATmega128, featuring I2C, UART, and Zigbee wireless.</p></div></div></section>
+<section id="features" class="tech-stack"><div class="container"><h2 class="section-title">Key Features</h2><div class="features">
+<div class="feature-card"><div class="feature-icon">🌡️</div><h3>Multi-Sensor</h3><p>BMP280, TSL2561, MQ135, AHT20</p></div>
+<div class="feature-card"><div class="feature-icon">🔗</div><h3>I2C Communication</h3><p>Custom TWI at 100kHz</p></div>
+<div class="feature-card"><div class="feature-icon">📡</div><h3>Zigbee Wireless</h3><p>Xbee S2 module</p></div>
+<div class="feature-card"><div class="feature-icon">💻</div><h3>Dashboard</h3><p>Flask web application</p></div>
+<div class="feature-card"><div class="feature-icon">⚡</div><h3>Low-Power</h3><p>ATmega128 @ 8MHz</p></div>
+<div class="feature-card"><div class="feature-icon">📊</div><h3>Calibration</h3><p>Temperature, pressure, lux compensation</p></div>
+</div></div></section>
+<section id="specs"><div class="container"><h2 class="section-title">Technical Specifications</h2>
+<table class="spec-table">
+<tr><th>Microcontroller</th><td>ATmega128 @ 8MHz</td></tr>
+<tr><th>Sensors</th><td>BMP280, TSL2561, MQ135, AHT20</td></tr>
+<tr><th>Communication</th><td>I2C, UART, Zigbee</td></tr>
+<tr><th>ADC</th><td>10-bit</td></tr>
+<tr><th>UART</th><td>9600 bps</td></tr>
+<tr><th>I2C</th><td>100 kHz</td></tr>
+</table>
+</div></section>
+<footer><div class="container"><p>Developed by <strong>Dhruvrajsinh Vansia</strong> at <a href="https://www.prl.res.in/">PRL, ISRO</a></p><p>MSc Space Sciences, University of Bremen</p></div></footer>
+</body>
+</html>
